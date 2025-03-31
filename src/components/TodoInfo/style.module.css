@@ -1,0 +1,17 @@
+.infoWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    min-width: 400px;
+    font-weight: 400;
+    border: solid rgb(88, 88, 88) 1px;
+    padding: 0 10px;
+}
+
+.infoButtonClear {
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 6px 4px;
+    background-color: transparent;
+}

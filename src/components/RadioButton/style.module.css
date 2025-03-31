@@ -1,0 +1,17 @@
+.RadioLabel {
+    padding: 4px;
+    border-radius: 6px;
+}
+
+.RadioLabel:has(>.RadioInput:checked) {
+    border: 2px solid rgb(163, 163, 163);
+}
+
+.RadioLabel:has(>.RadioInput:focus) {
+    border: 2px solid rgb(105, 105, 105);
+}
+
+.RadioInput {
+    opacity: 0;
+    position: absolute;
+}

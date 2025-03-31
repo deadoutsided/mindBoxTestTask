@@ -1,0 +1,13 @@
+.wrapper {
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+}
+
+.mainInput {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 7px 0;
+    font-size: 1em;
+}
