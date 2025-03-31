@@ -7,6 +7,10 @@
     padding: 0 10px;
 }
 
+.todoWrapper:first-child {
+    border-top: 0;
+}
+
 .todoButton {
     width: 25px;
     height: 25px;

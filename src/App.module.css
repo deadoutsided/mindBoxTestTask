@@ -11,3 +11,14 @@
     padding: 7px 0;
     font-size: 1em;
 }
+
+.todosList {
+    max-height: 600px;
+    overflow-y: scroll;
+    scrollbar-width: 0px;
+    border-top: 1px solid rgb(88, 88, 88);
+}
+
+.todosList::-webkit-scrollbar{
+    width: 0;
+}

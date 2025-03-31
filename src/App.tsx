@@ -78,6 +78,7 @@ function App() {
         placeholder="What needs to be done?"
         onKeyUp={callbacks.onInputEnter}
       />
+      <div className={styles.todosList}>
       {todosData.filter((el) => {
         if(sort === 'All') return el;
         if(sort === 'Active' && !el.completed) return el
@@ -93,6 +94,7 @@ function App() {
           />
         );
       })}
+      </div>
       <TodoInfo todosLeft={todosLeft} deleteCompleted={callbacks.deleteCompleted}>
         {sortVariants.map((el) => {
           return <RadioButton 
